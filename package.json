@@ -4,6 +4,11 @@
   "description": "The Infinite P2E Hopper Game you'll never need to put down!",
   "author": "BloxyRoad",
   "private": false,
+  "assets": {
+    "src/favicon.ico",
+    "src/assets",
+    "src/netlify.toml"
+   },
   "scripts": {
     "serve": "npx serve ./web-build",
     "build:web": "expo build:web",
