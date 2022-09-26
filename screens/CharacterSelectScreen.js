@@ -30,12 +30,12 @@ class CharacterSelect extends Component {
     const character = characters[currentIndex].name;
     Share.share(
       {
-        message: `${character}! #BouncyBacon @expo`,
-        url: 'https://crossyroad.netlify.com',
-        title: 'Bouncy Bacon',
+        message: `${character}! #BloxyRoad @bloxyroad`,
+        url: 'https://bloxyroad.com',
+        title: 'BloxyRoad',
       },
       {
-        dialogTitle: 'Share Bouncy Bacon',
+        dialogTitle: 'Share BloxyRoad',
         excludedActivityTypes: [
           'com.apple.UIKit.activity.AirDrop', // This speeds up showing the share sheet by a lot
           'com.apple.UIKit.activity.AddToReadingList', // This is just lame :)
