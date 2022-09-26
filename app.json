@@ -11,6 +11,11 @@
       "resizeMode": "contain",
       "backgroundColor": "#87C6FF"
     },
+    "assets": {
+    "src/favicon.ico",
+    "src/assets",
+    "src/netlify.toml"
+     },
     "packagerOpts": {
       "assetExts": ["ttf", "mp4", "mp3", "obj", "wav"]
     },
