@@ -15,12 +15,12 @@ import Images from "../src/Images";
 const banner = [
   {
     color: "#3640eb",
-    title: "Get Updates Subscribe Now",
+    title: "Get DEMO Updates",
     button: {
       onPress: (_) => {
         Alert.alert(
           "Subscribe to our mailing list",
-          "Join our mailing list and discover the latest news from Expo and Evan Bacon.\n\n Read our privacy policy on https://github.com/EvanBacon/Expo-Crossy-Road/privacy.md",
+          "Join our mailing list and discover the latest news from BloxyRoad.",
           [
             { text: "Cancel", onPress: () => console.log("Cancel Pressed!") },
             { text: "OK", onPress: () => console.log("OK Pressed!") },
