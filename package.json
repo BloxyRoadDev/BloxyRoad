@@ -1,8 +1,8 @@
 {
-  "name": "bouncy-bacon",
+  "name": "bloxy-road",
   "version": "0.0.0",
-  "description": "The infinite retro bouncer you'll never need to put down",
-  "author": "Evan Bacon",
+  "description": "The Infinite P2E Hopper Game you'll never need to put down!",
+  "author": "BloxyRoad",
   "private": false,
   "scripts": {
     "serve": "npx serve ./web-build",
