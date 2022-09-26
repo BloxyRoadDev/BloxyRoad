@@ -55,12 +55,12 @@ class Settings extends Component {
     const character = characters[currentIndex].name;
     Share.share(
       {
-        message: `Check out Bouncy Bacon by @baconbrix`,
-        url: 'https://crossyroad.netlify.com',
-        title: 'Bouncy Bacon',
+        message: `Check out BloxyRoad`,
+        url: 'https://bloxyroad.com',
+        title: 'BloxyRoad',
       },
       {
-        dialogTitle: 'Share Bouncy Bacon',
+        dialogTitle: 'Share BloxyRoad',
         excludedActivityTypes: [
           'com.apple.UIKit.activity.AirDrop', // This speeds up showing the share sheet by a lot
           'com.apple.UIKit.activity.AddToReadingList', // This is just lame :)
